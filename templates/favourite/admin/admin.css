@@ -1,0 +1,210 @@
+/*
+Description: Template Admin
+*/
+
+
+/*  Tabs 
+--------------------------------------------------------------------------------------------------------------------- */
+
+.pane-sliders .panel fieldset.panelform label, 
+.pane-sliders .panel fieldset.panelform div.paramrow label, 
+.pane-sliders .panel fieldset.panelform span.faux-label { 
+  width: 200px; 
+  padding: 2px 5px 2px 0; 
+  float: left; 
+  line-height: 18px; 
+}
+.pane-sliders .panel fieldset input, 
+.pane-sliders .panel fieldset textarea, 
+.pane-sliders .panel fieldset select, 
+.pane-sliders .panel fieldset img, 
+.pane-sliders .panel fieldset button { 
+  float: left; 
+  margin: 5px 5px 5px 0; 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+  width: 220px; 
+  padding: 7px; 
+  border: 1px solid #D2D2D2; 
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; 
+  font-size: 12px; 
+}
+.pane-sliders .panel fieldset.adminform fieldset.radio input, 
+.pane-sliders .panel fieldset.panelform fieldset.radio input, 
+.pane-sliders .panel fieldset.adminform-legacy fieldset.radio input, 
+.pane-sliders .panel div#menu-assignment input { 
+  width:20px; 
+}
+.pane-sliders .panel fieldset.adminform fieldset.radio label, 
+.pane-sliders .panel fieldset.panelform fieldset.radio label { 
+  width: 60px; 
+  padding: 0 10px 0 0; 
+  float: left; 
+  clear: none; 
+  display: inline; 
+}
+fieldset.adminform fieldset.radio, 
+fieldset.panelform fieldset.radio, 
+fieldset.adminform-legacy fieldset.radio { 
+  border: 0; 
+  float: left; 
+  padding: 4px 0; 
+}
+div.width-20 fieldset, 
+div.width-30 fieldset, 
+div.width-35 fieldset, 
+div.width-40 fieldset, 
+div.width-45 fieldset, 
+div.width-50 fieldset, 
+div.width-55 fieldset, 
+div.width-60 fieldset, 
+div.width-65 fieldset, 
+div.width-70 fieldset, 
+div.width-80 fieldset, 
+div.width-100 fieldset { 
+  padding: 15px; 
+  margin-bottom:0; 
+}
+.pane-sliders .panel textarea#jform_params_analyticsCode { 
+  height: 200px; 
+  width: 300px; 
+}
+.pane-sliders .panel button.jform-rightbtn { 
+  width:120px; 
+}
+.pane-toggler span,
+.pane-toggler-down span {
+  background: none;
+  padding-left: 0;
+  color: #444;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/FontAwesome/fontawesome-webfont.eot');
+  src: url('../fonts/FontAwesome/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FontAwesome/fontawesome-webfont.woff') format('woff'),
+    url('../fonts/FontAwesome/fontawesome-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.pane-sliders .panel {
+  border: 1px solid #dedede;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.pane-sliders .panel h3 {
+  font-weight: bold;
+  padding: 6px 0 6px 18px;
+  line-height: 24px;
+  color: #444444;
+  background: #ededed;
+  background-image: -moz-linear-gradient(#ededed 1%, #dbdbdb 100%);
+  background-image: -webkit-linear-gradient(#ededed 1%, #dbdbdb 100%);
+  background-image: -o-linear-gradient(#ededed 1%, #dbdbdb 100%);
+  background-image: linear-gradient(#ededed 1%, #dbdbdb 100%);
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.811765);
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.pane-sliders .panel h3:hover {
+	text-decoration: none;
+	color: #444;
+  background: #e0e0e0;
+  background-image: -moz-linear-gradient(270deg, #ededed 1%, #dbdbdb 100%);
+  background-image: -webkit-linear-gradient(270deg, #ededed 1%, #dbdbdb 100%);
+  background-image: -o-linear-gradient(270deg, #ededed 1%, #dbdbdb 100%);
+  background-image: linear-gradient(180deg, #ededed 1%, #dbdbdb 100%);
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.811765);
+  -moz-box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, 0.278431);
+  -webkit-box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, 0.278431);
+  -o-box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, 0.278431);
+  box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, 0.278431);
+  -webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+.pane-sliders .panel h3:before,
+.pane-sliders .panel h3:hover:before,
+h3#style-options a:before,
+h3#logo-options a:before,
+h3#mobile-options a:before,
+h3#suffix-options a:before,
+h3#analytics-options a:before {
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+  text-decoration: inherit;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none !important;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  position: relative;
+  top: 2px;
+  padding-right: 16px;
+	font-size: 18px;
+	color: #555;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.811765);
+}
+.pane-sliders .panel h3:before {
+	top: 4px; 
+  right: 0;
+	float: right;
+	content: "\f105";
+}
+.pane-sliders .panel h3:hover:before {
+	top: 4px;
+  right: 0; 
+  float: right;
+  content: "\f107";
+  -webkit-transition: all 400ms linear;
+  -moz-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  transition: all 400ms linear;
+}
+h3#style-options a:before {
+	content: "\f013";
+}
+h3#logo-options a:before {
+	content: "\f0ac";
+}
+h3#mobile-options a:before {
+	content: "\f10a";
+  padding-left: 2px;
+  padding-right: 17px;
+}
+h3#suffix-options a:before {
+	content: "\f0ae";
+}
+h3#analytics-options a:before {
+	content: "\f080";
+}
+.pane-sliders .content hr {
+  border: 0;
+  height: 0; 
+  border-top: 1px solid #dddddd; 
+  border-bottom: 1px solid #ffffff; 
+  margin: 2em 0;
+}
+.pane-sliders .panel .control-label { 
+  width: 20em; 
+}
+.pane-sliders .panel .accordion-inner { 
+  padding: 3em 1em 2em; 
+}
+
+
+
+
+

@@ -1,0 +1,72 @@
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/*--------------------------------------------------------------------------------
+# jQuery Coda-Slider CSS
+# Package JooStar Joomez Joomla! 2.5 Template
+# JooStar - August 2012 (Joomla! 2.5)
+# Version 1.0.0
+# Joomez Joomla! Templates  http://www.joomez.com
+---------------------------------------------------------------------------------*/
+
+/* Insignificant stuff, for demo purposes */
+
+/* Most common stuff you'll need to change */
+
+	.coda-slider-wrapper { padding: 0 }
+	.coda-slider img { float: right; margin: 0 0 15px 15px }
+	.coda-slider { margin: 70px 80px; text-align: left;}
+	.coda-slider h3 {
+		padding-bottom: 20px;
+		font-size: 30px;
+	}
+	.coda-slider a.title {
+		font-size: 30px;
+		text-decoration: none;
+	}
+	
+	
+	.coda-slider p{
+	font-size: 14px;
+	line-height: 170%;
+}
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel { width: 950px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 950px }
+	.coda-slider-wrapper.arrows .coda-slider { margin: 0 }
+	
+	/* Arrow styling */
+	.coda-nav-left a, .coda-nav-right a { width: 28px; height: 42px; display: block; margin-top: 124px }
+	.coda-nav-left a:hover, .coda-nav-right a:hover { background-position: 0 -42px }
+	.coda-nav-left a 	{ background: url(../images/left.png); margin-right: 10px }
+	.coda-nav-right a 	{ background: url(../images/right.png); margin-left: 10px }
+	
+	/* Tab nav */
+	.coda-nav ul li a.current { background: #39c }
+	
+	/* Panel padding */
+	.coda-slider .panel-wrapper { padding: 70px 80px }
+	
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	
+	/* Miscellaneous */
+	.coda-slider-wrapper { clear: both; overflow: auto; width: 1026px; margin: auto }
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left }
+	.coda-slider .panel-container { position: relative }
+	.coda-nav-left, .coda-nav-right { float: left }
+	.coda-nav-left a, .coda-nav-right a { text-indent: -100px; overflow: hidden }
+	

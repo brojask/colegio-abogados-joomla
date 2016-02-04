@@ -1,0 +1,126 @@
+/*--------------------------------------------------------------------------------
+# Error 404 page
+# Package JooStar Joomez Joomla! 2.5 Template
+# Theme color Blue
+# JooStar - August 2012 (Joomla! 2.5)
+# Version 1.0.0
+# Author   Joomez Joomla! Templates  http://www.joomez.com
+# Copyright (C) 2011-2012 www.Joomez.com All Rights Reserved.
+# Creative Commons 3.0 License.
+---------------------------------------------------------------------------------*/
+
+/*Theme Blue Start*/
+
+
+body {
+ color: #222;
+ background-color: #E4E7E9;
+ padding: 0; margin: 0;
+ text-align: center;
+ font: normal 12px Arial, Helvetica, sans-serif;
+ line-height: 1.5em;
+}
+
+#box_wrapper{
+	width: 100%;
+	height: 302px;
+   background: #1C3A71 url(../images/blue/slider_wrap_bg.jpg) top center no-repeat;
+}
+
+#box {
+width:800px;
+margin: 0 auto;
+padding: 16px;
+}
+
+#boxmessage{
+	width: 100%;
+	height: 260px;
+}
+
+#box>div>p {
+text-align:center;
+padding: 11px 10px;
+margin: 0 10px 20px;
+}
+
+
+#box>div>p br { 
+display: none; 
+}
+
+#error-box{
+margin:0;
+}
+
+.outline {
+}
+
+h1 {
+line-height:120px;
+font-size:120px;
+color:#fff;
+margin: 30px auto 10px;
+text-align: center;
+}
+
+h2 {
+font-size: 40px;
+margin: 0 0 20px;
+line-height: 40px;
+color:#fff;
+margin: 30px auto 10px;
+text-align: center;
+}
+
+h3 {
+font-size: 26px;
+color:#032465;
+margin: 30px auto 10px;
+text-align: center;
+font-weight: normal;
+}
+
+p {
+border-bottom: 1px solid #ccc;
+padding-bottom: 6px;
+margin: 24px 0 12px 0;
+}
+
+p.info {
+text-align:center;
+background: #334b71;
+padding: 10px 10px;
+margin:30px 0 10px 0;
+color: #fff;
+font-size: 20px;
+}
+
+ul {
+list-style-type:square;
+padding:0 0 0 36px;
+}
+
+ol {
+padding: 0;
+margin: 15px 0 0 0;
+list-style-position: inside;
+}
+
+ol li,
+ol li strong {
+font-size: 12px !important;
+font-weight: normal;
+padding: 3px 0;
+}
+
+#timing{
+text-align:center;
+color:#344c72;
+margin:0;
+padding:4px 0;
+font-weight:bold;
+font-size: 24px;
+text-transform: uppercase;
+text-align: center;
+}

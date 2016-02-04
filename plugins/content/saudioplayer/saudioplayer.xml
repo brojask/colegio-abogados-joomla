@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="content" method="upgrade">
+	<name>plg_content_saudioplayer</name>
+	<version>1.2.3</version>
+	<creationDate>2012-06-14</creationDate>
+	<author>QIUHAO</author>
+	<authorEmail>5superbsd@gmail.com</authorEmail>
+	<authorUrl>http://www.aijoomla.com</authorUrl>
+	<license>GNU/GPLv2</license>
+	<copyright>Copyright (c) 2011</copyright>
+	<description>PLG_CONTENT_SAUDIOPLAYER_XML_DESCRIPTION</description>
+	<files>
+		<folder>fields</folder>
+		<filename plugin="saudioplayer">saudioplayer.php</filename>
+		<filename>index.html</filename>
+		<folder>player</folder>
+		<folder>language</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field type="text" name="default_width" default="165" label="PLG_CONTENT_SAUDIOPLAYER_FIELD_DEFAULT_WIDTH_LABEL" description="PLG_CONTENT_SAUDIOPLAYER_FIELD_DEFAULT_WIDTH_DESC"  />
+				<field type="text" name="default_height" default="38" label="PLG_CONTENT_SAUDIOPLAYER_FIELD_DEFAULT_HEIGHT_LABEL" description="PLG_CONTENT_SAUDIOPLAYER_FIELD_DEFAULT_HEIGHT_DESC" />
+				<field type="text" name="default_folder" default="music" label="PLG_CONTENT_SAUDIOPLAYER_FIELD_DEFAULT_FOLDER_LABEL" description="PLG_CONTENT_SAUDIOPLAYER_FIELD_DEFAULT_FOLDER_DESC" size="50" />
+				<field type="text" name="default_background_color" default="#FFFFFF" label="PLG_CONTENT_SAUDIOPLAYER_FIELD_DEFAULT_BACKGROUND_COLOR_LABEL" description="PLG_CONTENT_SAUDIOPLAYER_FIELD_DEFAULT_BACKGROUND_COLOR_DESC" />
+			</fieldset>
+			<fieldset name="Donate" addfieldpath="/plugins/content/saudioplayer/fields">
+				<field type="Donate" name="donate" />
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" name="SAudioPlayer Update Site">http://www.aijoomla.com/update/saudioplayer_update.xml</server>
+	</updateservers>
+</extension>

@@ -1,0 +1,763 @@
+/*--------------------------------------------------------------------------------
+# Main CSS JooStar Template 
+# Package JooStar Joomez Joomla! 2.5 Template
+# JooStar - August 2012 (Joomla! 2.5)
+# Version 1.0.0
+# Author   Joomez Joomla! Templates  http://www.joomez.com
+# Copyright (C) 2011-2012 www.Joomez.com All Rights Reserved.
+# Creative Commons 3.0 License.
+---------------------------------------------------------------------------------*/
+
+
+/*Modules*/
+
+.moduletable, .moduletable_menu, .moduletable_text{
+	/*margin: 0 0 31px 0;*/
+	margin: 0 0 8px 0;
+	overflow: hidden;
+}
+
+#frontrightfull .moduletable{
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+
+.modulecontent ul.menu, ul.mostread, ul.latestnews, ul.sections, #top_modules .moduletable ul, #bottom .moduletable ul, .modulecontent ul#mainlevel{
+	list-style: none;
+}
+
+.modulecontent ul.menu li, #top_modules .moduletable ul li, #bottom .moduletable ul li, ul.latestnews li, ul.mostread li, ul.sections li, .modulecontent ul#mainlevel li, ul.jcomments-latest-commented li, ul.jcomments-most-commented li, div.article div#article-index ul li{
+	background: transparent url(../images/rightmenuhr.png) bottom repeat-x;
+	padding: 0 0 1px 0;
+}
+
+div.cat-children ul li{
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+	padding: 0 0 1px 0;
+}
+
+div.cat-children ul li.last{
+	background: none;
+}
+
+.modulecontent ul.menu li ul li, .modulecontent ul#mainlevel li ul li{
+	background: none;
+	padding: 0 0 1px 0;
+}
+
+.modulecontent ul.menu li.last{
+	background: none;
+}
+
+.modulecontent ul.menu li.last a{
+	border-bottom: none;
+}
+
+
+/*
+ * used by Jommla core components
+ */
+
+div.filter {
+	margin: 10px 0px 10px 0px;
+}
+
+div.article table, div.description table, div.item table{
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+th {
+	padding: 5px 5px 5px 5px;
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+	font-weight : bold;
+}
+
+tr.even td, td {
+	padding: 5px 5px 5px 5px;
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+}
+
+tr.odd td {
+	padding: 5px 5px 5px 5px;
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+}
+ 
+span.number {
+	color: #666;
+}
+
+
+
+/* floats */
+.float-left { float: left; overflow: hidden; }
+.float-right { float: right; overflow: hidden; }
+
+.width25 { width: 24.999%; }
+.width33 { width: 33.333%; }
+.width50 { width: 49.999%; }
+.width100 { width: 100%; }
+
+
+
+/*
+ * com_content
+ * blog layout (frontpage, category, section)
+ * sub selectors: blog
+ */
+ 
+ 
+div.leadingarticles {
+	overflow: hidden;
+}
+
+div.leadingarticles h2.title, .contentheading, .componentheading {
+   font-size: 24px;
+}
+
+div.teaserarticles {
+	overflow: hidden;
+}
+
+div.teaserarticles h2.title{
+	font-size: 20px;
+}
+
+div.item {margin-bottom: 26px;}
+.blog-featured div.item {}
+
+div.item-bg {
+	padding-bottom: 15px;
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+	overflow: hidden;
+}
+
+div.multicolumns div.item {	margin: 0px 5px 15px 5px;}
+
+div.multicolumns div.first div.item {	margin-left: 0px; margin-right: 15px}
+div.multicolumns div.last div.item {	margin-right:0px; margin-left: 15px}
+
+/*
+ * com_content
+ * list layout (frontpage, category, section)
+ * sub selectors: sectionlist, categorylist
+ */
+
+/*
+ * com_content
+ * article layout
+ */
+ 
+  blockquote {
+    font-size: 16px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 22px;
+	 padding: 20px 20px 5px 20px;
+	 margin: 0 0 20px 0;
+}
+
+blockquote.left, pre.left {
+    float: left;
+	 margin: 0 20px 10px 0;
+    width: 50%;
+}
+blockquote.right, pre.right {
+    float: right;
+	 margin: 0 0 10px 20px;
+    width: 50%;
+}
+
+pre {
+	font-size: 12px;
+	padding: 20px;
+	margin: 0 0 20px 0;
+	line-height: 20px;
+	width: 100%;
+	overflow: auto;
+	overflow-Y: hidden;
+}
+
+pre code {
+	margin: 0 0 0 40px;
+	padding: 18px 0;
+	display: block;
+}
+
+img.imageborder{
+   border: 1px solid #C8C9CC;
+	padding: 4px;
+	background-color: #fff;
+}
+ 
+ div.article{
+
+ }
+
+div.article h2{
+   margin: 12px 0 10px 0;
+   font-size: 26px;
+   line-height: 140%;
+   text-transform: none;
+}
+
+div.article h3, div.item h3{
+   margin: 10px 0 7px 0;
+}
+
+div.article h4, div.item h4{
+   margin: 8px 0 5px 0;
+}
+ 
+div.article p{
+	margin: 0 0 15px 0;
+}
+
+div.headline {
+	overflow: hidden;
+}
+
+div.article div.headline {
+	overflow: hidden;
+	margin: 0 0 5px 0;
+}
+
+div.multicolumns h1.title {
+	font-size: 200%;
+	letter-spacing: -1px;
+}
+
+
+
+/*
+ * com_content
+ * editing an article
+ * sub seletors: edit-article
+ */
+
+form#sendart fieldset {
+	margin-bottom: 30px;
+}
+
+form#sendart fieldset div {
+	overflow: hidden;
+}
+
+form#sendart label.label-left {
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+form#sendart div.save {
+	margin: 0px;
+	float: right;
+}
+
+form#sendart legend{
+	padding: 0;
+}
+
+/* Buttons */
+#editor-xtd-buttons {
+	padding: 5px;
+}
+
+.button2-left,
+.button2-right,
+.button2-left div,
+.button2-right div {
+	float: left;
+}
+
+.button2-left a,
+.button2-right a,
+.button2-left span,
+.button2-right span {
+	display: block;
+	height: 22px;
+	float: left;
+	line-height: 22px;
+	font-size: 11px;
+	color: #666;
+	cursor: pointer;
+}
+
+.button2-left span,
+.button2-right span {
+	cursor: default;
+	color: #999;
+}
+
+.button2-left .page a,
+.button2-right .page a,
+.button2-left .page span,
+.button2-right .page span {
+	padding: 0 6px;
+}
+
+.page span {
+	color: #000;
+	font-weight: bold;
+}
+
+.button2-left a:hover,
+.button2-right a:hover {
+	text-decoration: none;
+}
+
+.button2-left a,
+.button2-left span {
+	padding: 0 24px 0 6px;
+}
+
+.button2-right a,
+.button2-right span {
+	padding: 0 6px 0 24px;
+}
+
+.button2-left {
+	background: url(../images/j_button2_left.png) no-repeat;
+	float: left;
+	margin-left: 5px;
+}
+
+.button2-right {
+	background: url(../images/j_button2_right.png) 100% 0 no-repeat;
+	float: left;
+	margin-left: 5px;
+}
+
+.button2-left .image {
+	background: url(../images/j_button2_image.png) 100% 0 no-repeat;
+}
+
+.button2-left .readmore {
+	background: url(../images/j_button2_readmore.png) 100% 0 no-repeat;
+}
+
+.button2-left .pagebreak {
+	background: url(../images/j_button2_pagebreak.png) 100% 0 no-repeat;
+}
+
+.button2-left .blank {
+	background: url(../images/j_button2_blank.png) 100% 0 no-repeat;
+	float: right;
+}
+
+
+
+/*
+ * com_weblinks, com_newsfeeds
+ * sub seletors: weblinks
+ */
+
+
+div.weblinks ul li, div.newsfeeds ul li, div.search ol li, div.sectionlist ul li, ul#archive-list li, dd.result-separator{
+	margin: 0 0 15px 0;
+	padding: 0 0 15px 0;
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+}
+
+dd.result-separator:last-child{
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+div.weblinks ul li:last-child, div.newsfeeds ul li:last-child, div.sectionlist ul li:last-child, ul#archive-list li:last-child {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+div.weblinks div.image{
+	width: 33%;
+	height: auto;
+	float: right;
+}
+
+div.weblinks div.image img{
+	float: right;
+}
+
+div.weblinks fieldset {
+}
+
+div.weblinks fieldset div {
+	overflow: hidden;
+}
+
+div.weblinks label.label-left {
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+th a img{
+	margin: 0 0 0 10px;
+}
+
+fieldset{
+	border: 0;
+}
+
+/*
+ * com_search
+ * sub seletors: search
+ */
+
+
+div.search ol{
+	margin: 0 0 0 25px;
+}
+
+div.search ol li a:hover, div.weblinks ul li a:hover, div.newsfeeds ul li a:hover, a.category:hover, th a:hover, td a:hover, div.search dl.search-results dt.result-title a:hover{
+	text-decoration: underline;
+}
+
+
+/*
+ * com_contact
+ * sub seletors: contact
+ */
+ 
+ div.contact {
+ 	overflow: hidden;
+	clear: both;
+ }
+
+div.contact h1 {
+	margin-bottom: 20px;
+	font-size: 250%;
+	font-weight: normal;
+}
+
+div.contact h2 {
+	margin-bottom: 10px;
+	font-size: 120%;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+}
+
+div.contact div.image {
+	float: right;
+	width: 298px;
+	text-align: right;
+}
+
+div.contact table {
+	margin-bottom: 10px;
+}
+
+div.contact label.label-top {
+	display: block;
+}
+
+form#emailForm{
+	margin: 25px 0 0 0;
+	overflow: hidden;
+	clear: both;
+	float: left;
+}
+
+form#emailForm div{
+	margin: 0 0 10px 0;
+}
+
+label.label-contact{
+	width: 130px;
+	display: block;
+	float: left;
+}
+
+div.contact input.inputbox{
+	width: 250px;
+}
+
+textarea#contact_text{
+	height: 100px;
+}
+
+div.contact_address address{
+   font-style: normal;
+	line-height: 170%;
+	width: 49%;
+	float: left;
+}
+
+div.contact_address{
+   width: 65%;
+	height: auto;
+	float: left;
+	margin: 10px 0;
+}
+
+/*
+ * com_user
+ * sub seletors: user
+ */
+ 
+div.user p{
+   margin: 0 0 15px 0;
+}
+ 
+form#josForm div{
+   margin: 0 0 10px 0;
+}
+
+form#josForm div input, input.wlinks, select#jformcatid{
+	width: 250px;
+}
+
+textarea#jformdescription{
+	height: 100px;
+}
+
+label.label-left,
+span.label-left  {
+	display: block;
+	width: 130px;
+	float: left;
+	padding: 4px 0 0 0;
+}
+
+/*
+ * mod_newsflash
+ */
+
+div.module-newsflash {
+	overflow: hidden;
+}
+
+div.module-newsflash div.item {
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+
+div.module-newsflash div.last {
+	padding-bottom: 0px;
+}
+
+
+
+/*
+ * Joomla! system tooltips
+ */
+ 
+.tool-tip, .tip-wrap {
+	float: left;
+	background: #fff;
+	border-top: 1px solid #C6C5C7;
+	border-right: 1px solid #C6C5C7;
+	border-bottom: 1px solid #cfced0;
+	border-left: 1px solid #cfced0;
+	padding: 5px 10px;
+	max-width: 200px;
+	color: #323232;
+	text-align: left;
+}
+
+.tool-title, .tip-title {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url(../images/system/selector-arrow.png) no-repeat;
+}
+
+.tool-text, .tip-text {
+	font-size: 100%;
+	margin: 0;
+	color: #333;
+}
+
+/*Message icons*/
+
+#system-message dd.message ul li{
+	background: transparent url(../images/system/message-ico.gif) left top no-repeat;  
+	line-height: 22px;
+}
+
+#system-message dd.error ul li{
+	background: transparent url(../images/system/warning-ico.gif) left top no-repeat;  
+	line-height: 22px;
+}
+
+#system-message dd.notice ul li{
+	background: transparent url(../images/system/alert-ico.gif) left top no-repeat;  
+	line-height: 22px;
+}
+
+div.article #system-message ul, div.item #system-message ul{
+	margin-left: 0;
+}
+
+
+/* Debug */
+#system-debug     { color: #000; background-color: #fff; padding: 10px; margin: 10px; }
+#system-debug div { font-size: 11px;}
+
+/*JComments latest comments module*/
+
+ul.jclist{
+	list-style: none;
+}
+
+
+ul.jclist li, #top_modules .moduletable ul.jclist li, #bottom .moduletable ul.jclist li{
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+	padding: 0 0 9px 0;
+	margin: 0 0 6px 0;
+	font-size: 11px;
+	line-height: 1.4em;
+}
+
+ul.jclist li a:hover, ul.jclist li a.jcl_objtitle:hover, ul.jclist li a.jcl_readmore:hover,
+#top_modules .moduletable ul.jclist li a:hover, #bottom .moduletable ul.jclist li a:hover{
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+#top_modules .moduletable ul.jclist li a, #bottom .moduletable ul.jclist li a{
+   border-bottom: none;
+}
+
+ul.jclist img{
+	margin: 8px 7px 0 0;
+	border: 2px solid #fff;
+	width: 35px;
+   height: 35px;
+   float: left;
+}
+
+#top_modules .moduletable ul.jclist img, #bottom .moduletable ul.jclist img{
+	margin: 6px 7px 0 0;
+	border: 2px solid #fff;
+}
+
+span.jcl_comment{
+	padding: 0 0 15px 0;
+	clear: both;
+}
+
+/*Xmap style*/
+
+ul.level_0{
+	margin: 20px 0 25px 0;
+	list-style: none;
+	text-transform: uppercase;
+}
+
+ul.level_1, ul.level_2, ul.level_3, ul.level_4{
+	margin: 10px 0 20px 20px;
+	list-style: none;
+	text-transform: none;
+}
+
+/* bannergroup_text */
+
+div.bannerheader{
+	margin: 0 0 10px 0;
+}
+
+div.banneritem_text{
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+	overflow: hidden;
+}
+
+/*Lists Main*/
+
+div#articlecontent	{ position: relative }
+
+div.articlecontent ul, div.blogintrotext ul, div.category-desc ul{
+	margin: 15px 0 20px 15px;
+	list-style: none;
+	overflow: hidden;
+}
+
+div.articlecontent ol, div.blogintrotext ol, div.description ol{
+	margin: 15px 0 20px 30px;
+}
+
+/*Slider module*/
+.joomez_sildes {
+	width: 950px;
+	margin: auto;
+	list-style: none;
+	overflow:hidden;
+}
+.joomez_sildes .news	{
+	width: 790px;
+	height: 162px;
+	margin: 70px 80px;
+	text-align: left;
+	color: #c2c6cd;
+	
+}
+.joomez_sildes .news h3 {
+	padding-bottom: 20px;
+	font-size: 30px;
+	color: #c2c6cd;
+}
+.joomez_sildes .news h3 a {
+	font-size: 30px;
+	text-decoration: none;
+	color: #dfdfdf;
+}
+.joomez_sildes .news img {
+	float: right
+}
+#slider_wrap .panel .readon {
+	float: left;
+	clear: left;
+	padding: 6px 15px;
+	height: 19px;
+	text-decoration: none;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-top: 12px;
+	color: #C2C6CD;
+}
+#slider_wrap .panel .readon:hover {
+	color: #fff;
+}
+
+#mfslideBar	a.button, #bottom_wrap #mfslideBar a.button{
+	float: left;
+	padding: 5px 11px;
+	height: auto;
+	margin-top: 3px;
+	text-decoration: none;
+	text-shadow: none;
+}
+#mfslideBar	a.button:hover {
+	color: #fff
+}
+
+
+/*Sigplus gallery*/
+
+/* items */
+div.sigplus-gallery ul > li {
+margin: 0 11px 11px 0; !important;
+border:0 none transparent !important;
+padding:0 !important;
+}
+
+/*image*/
+div.sigplus-gallery ul > li > img,
+div.sigplus-gallery ul > li > a > img {
+   border: 1px solid #C8C9CC !important;
+	padding: 4px !important;
+	background-color: #fff !important;
+}

@@ -1,0 +1,11 @@
+JooStar Template 
+Package JooStar Joomez Joomla! 2.5 Template
+JooStar - August 2012 (Joomla! 2.5)
+Version 1.0.0
+Author   Joomez Joomla! Templates  http://www.joomez.com
+Copyright (C) 2011-2012 www.Joomez.com All Rights Reserved.
+Creative Commons 3.0 License.
+
+For more information please contact with contact@joomez.com.
+
+www.joomez.com - Professional Joomla! Templates

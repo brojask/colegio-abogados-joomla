@@ -1,0 +1,211 @@
+/*--------------------------------------------------------------------------------
+# Blue Print Page CSS
+# Package JooStar Joomez Joomla! 2.5 Template
+# JooStar - August 2012 (Joomla! 2.5)
+# Version 1.0.0
+# Author   Joomez Joomla! Templates  http://www.joomez.com
+# Copyright (C) 2011-2012 www.Joomez.com All Rights Reserved.
+# Creative Commons 3.0 License.
+---------------------------------------------------------------------------------*/
+
+/*Theme Blue Start*/
+
+body.contentpane{
+	margin: 20px;
+	text-align: left;
+   color: #222;
+   background-color: #E4E7E9;
+   font: normal 12px Arial, Helvetica, sans-serif;
+   line-height: 1.5em;
+}
+
+body.contentpane a{
+	text-decoration: underline;
+   color: #032158;
+}
+
+body.contentpane span.icon{
+	float: right;
+}
+
+body.contentpane img {
+	border: none;
+	border: 0;
+}
+
+body.contentpane h1{
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #032158;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+body.contentpane h2, body.contentpane h2 .contentheading, body.contentpane h2 .componentheading, .contentheading{
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #032158;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+body.contentpane h2 a{
+	text-decoration: none;
+	color: #032158;
+}
+
+body.contentpane h3{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #032158;
+	margin: 0 0 8px 0;
+	text-transform: uppercase;
+}
+
+body.contentpane h4, .componentheading{
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #032158;
+	margin: 0 0 7px 0;
+	text-transform: uppercase;
+}
+
+body.contentpane h5{
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #032158;
+	margin: 0 0 5px 0;
+	text-transform: uppercase;
+}
+
+body.contentpane p{
+	margin: 0 0 15px 0;
+}
+
+body.contentpane ul{
+	margin: 15px 0 20px 0;
+	padding: 0 0 0 25px;
+	list-style: none;
+}
+
+body.contentpane ol{
+	margin: 15px 0 20px 0px;
+}
+
+body.contentpane ul li{
+  background: transparent url(../images/blue/subarrow.png) left 6px no-repeat;
+  padding: 0 0 0 10px;
+}
+
+body.contentpane ul.actions li{
+	background: none;
+	padding: 0;
+	float: right;
+	margin-bottom: 20px;
+}
+
+body.contentpane input {color: #444;background-color: #fff;margin: 0; padding: 2px;height: 1.5em; border-top: 1px solid #FAFAFA;border-right: 2px solid #C8C9CC;border-bottom: 2px solid #C8C9CC;border-left: 1px solid #FAFAFA;}
+
+body.contentpane .button{
+	background: url(../images/blue/buttonbg.png) bottom repeat-x;
+	height: 26px;
+	width: auto;
+	padding: 0 11px;
+	border-top: 0;
+	border-right: 1px solid #455076;
+	border-bottom: 0;
+	border-left: 1px solid #153267;
+	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+ blockquote {
+	 background: #DBDEE0 url(../images/topmodules_wrap_bg.png) bottom repeat-x;
+	 color: #032158;
+	 font-size: 16px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 22px;
+	 padding: 20px 20px 5px 20px;
+	 margin: 0 0 20px 0;
+}
+
+pre {
+	 background: #DBDEE0 url(../images/topmodules_wrap_bg.png) bottom repeat-x;
+	 color: #032158;
+	 font-size: 12px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 22px;
+	 padding: 20px 20px 5px 20px;
+	 margin: 0 0 20px 0;
+}
+
+blockquote.left {
+    float: left;
+	 margin: 0 20px 10px 0;
+    width: 50%;
+}
+blockquote.right {
+    float: right;
+	 margin: 0 0 10px 20px;
+    width: 50%;
+}
+
+table{
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+th {
+	padding: 5px 5px 5px 5px;
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+	font-weight : bold;
+}
+
+td {
+	padding: 5px 5px 5px 5px;
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+}
+
+.imageborder{
+   border: 1px solid #C8C9CC;
+	padding: 4px;
+	background-color: #fff;
+}
+
+div.formelm{
+	margin: 0 0 10px 0;
+}
+
+div.formelm label{
+	width: 70px;
+	float: left;
+}
+
+div.mailto-close a{
+	float: right;
+}
+
+/* -------------------
+   Article Information
+-------------------- */
+dl.article-info {font-size: 11px; color: #666; text-transform: uppercase;}
+
+dl.article-info dd {display: inline-block; margin: 0 11px 0 0;}
+
+/* Specific */
+dl.article-info	dd.parent-category-name a {}
+dl.article-info	dd.category-name a { text-decoration: none;}

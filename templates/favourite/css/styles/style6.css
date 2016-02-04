@@ -1,0 +1,237 @@
+/*
+Style 6
+*/
+
+
+a {
+  color: #37B1C2;
+  text-decoration: none;
+}
+
+
+/* NAVIGATION
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#fav-nav .navigation .nav-pills > .active > a, 
+#fav-nav .navigation .nav-pills > li > a:hover {
+  color: #37B1C2;
+}
+#fav-nav .navigation .nav-pills .nav-child > .active > a, 
+#fav-nav .navigation .nav-pills .nav-child > li > a:hover  {
+  color: #37B1C2;
+}
+
+
+/* TOP
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#fav-top .moduletable a:hover,
+#fav-top div[class^="moduletable-"] a:hover,
+#fav-top div[class*=" moduletable-"] a:hover { 
+  color: #37B1C2; 
+}
+
+
+/* FOOTER
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#fav-footer .moduletable li a:hover,
+#fav-footer div[class^="moduletable-"] li a:hover,
+#fav-footer div[class*=" moduletable-"] li a:hover { 
+  color: #37B1C2; 
+}
+#fav-footer .moduletable a,
+#fav-footer div[class^="moduletable-"] a,
+#fav-footer div[class*=" moduletable-"] a, 
+#fav-footer .moduletable p a,
+#fav-footer div[class^="moduletable-"] p a,
+#fav-footer div[class*=" moduletable-"] p a { 
+  color: #37B1C2; 
+}
+
+
+/* COPYRIGHT
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#fav-copyright ul li.active a, 
+#fav-copyright ul li a:hover, 
+#fav-copyright ul li:hover a, 
+#fav-copyright ul li.sfHover a { 
+  color: #37B1C2; 
+}
+
+
+/* J!CONTENT CSS  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Article Info 
+---------------------------------------------------------------------- */
+
+ul.dropdown-menu a:hover { 
+	color: #37B1C2; 
+	background-color: transparent; 
+	background-image:none;
+}
+
+
+/* MODULES CSS  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Module Menu
+---------------------------------------------------------------------- */
+
+/* Menu Basic */
+
+.moduletable ul.nav.menu.basic li.current.active a,
+div[class^="moduletable-"] ul.nav.menu.basic li.current.active a,
+div[class*=" moduletable-"] ul.nav.menu.basic li.current.active a {
+	background-color: #37B1C2;
+}
+.moduletable ul.nav.menu.basic ul.nav-child.unstyled.small a,
+div[class^="moduletable-"] ul.nav.menu.basic ul.nav-child.unstyled.small a,
+div[class*=" moduletable-"] ul.nav.menu.basic ul.nav-child.unstyled.small a {
+	color: #37B1C2;
+}
+.moduletable ul.nav.menu.basic li li.current.active,
+div[class^="moduletable-"] ul.nav.menu.basic li li.current.active,
+div[class*=" moduletable-"] ul.nav.menu.basic li li.current.active,
+.moduletable ul.nav.menu.basic li li li.current.active,
+div[class^="moduletable-"] ul.nav.menu.basic li li li.current.active,
+div[class*=" moduletable-"] ul.nav.menu.basic li li li.current.active,
+.moduletable ul.nav.menu.basic li li li li.current.active,
+div[class^="moduletable-"] ul.nav.menu.basic li li li li.current.active,
+div[class*=" moduletable-"] ul.nav.menu.basic li li li li.current.active {
+	background-color: #37B1C2;
+}
+
+
+/* MODULE VARIATIONS  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Variation 1 */
+
+.moduletable-sfx1 h3 i {
+  background-color: #37B1C2;
+}
+
+/* Variation 2 */
+
+.moduletable-sfx2 h3 i {
+  background-color: #37B1C2;
+}
+
+/* Variation 4 */
+
+.moduletable-sfx4 h3 {
+  background-color: #37B1C2;
+}
+
+/* Variation 5 */
+
+.moduletable-sfx5 h3 {
+	background-color: #37B1C2;
+  color: #fff;
+}
+
+/* Variation 7 */
+
+.moduletable-sfx7 {
+  color: #fff;
+	background-color: #37B1C2; 
+}
+
+/* Variation 8 */
+
+.moduletable-sfx8 {
+  color: #fff;
+  background-color: #37B1C2; 
+}
+
+
+/* TYPOGRAPHY 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Buttons
+---------------------------------------------------------------------- */
+
+/* Primary */
+
+.btn-primary { 
+  background-color: #37B1C2; 
+  color: #fff; 
+  border: 1px solid #33a5b5;
+}
+.btn-primary:hover { 
+  background-color: #37B1C2;
+  border: 1px solid #33a5b5;
+}
+
+/* Image Fill */
+
+.img-fill {
+  background-color: #37B1C2;
+}
+
+
+/* K2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Category Title 
+---------------------------------------------------------------------- */
+
+div.itemListCategory h2:before {
+  color: #37B1C2;
+}
+
+/* Category Item Title
+---------------------------------------------------------------------- */
+
+div.catItemHeader h3.catItemTitle a:hover {
+	color: #37B1C2; 
+}
+
+/* Category Item Featured 
+---------------------------------------------------------------------- */
+
+div.itemIsFeatured h2:before, 
+div.catItemIsFeatured h3:before, 
+div.userItemIsFeatured h3:before {
+	color: #37B1C2;
+	background-color: #eee;
+}
+
+/* Latest Items Title 
+---------------------------------------------------------------------- */
+
+div.latestItemsCategory h2:before {
+  color: #37B1C2;
+}
+
+/* K2 User
+---------------------------------------------------------------------- */
+
+div.k2LoginBlock fieldset.input input.button,
+div.k2UserBlock form input.button.ubLogout {
+	background-color: #37B1C2; 
+  color: #fff; 
+  border: 1px solid #33a5b5;
+}
+div.k2LoginBlock fieldset.input input.button:hover,
+div.k2UserBlock form input.button.ubLogout:hover {
+	background-color: #37B1C2;
+  border: 1px solid #33a5b5;
+}
+.k2AccountPage button.button.validate {
+	background-color: #37B1C2; 
+  color: #fff; 
+  border: 1px solid #33a5b5;
+}
+.k2AccountPage button.button.validate:hover { 
+  background-color: #37B1C2;
+  border: 1px solid #33a5b5;
+}

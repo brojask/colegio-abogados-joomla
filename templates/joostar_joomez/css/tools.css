@@ -1,0 +1,106 @@
+/*--------------------------------------------------------------------------------
+# Package JooStar Joomez Joomla! 2.5 Template
+# JooStar - August 2012 (Joomla! 2.5)
+# Version 1.0.0
+# Author   Joomez Joomla! Templates  http://www.joomez.com
+# Copyright (C) 2011-2012 www.Joomez.com All Rights Reserved.
+# Creative Commons 3.0 License.
+---------------------------------------------------------------------------------*/
+
+body.contentpane{
+	margin: 20px;
+	text-align: left;
+   color: #222;
+   background-color: #E4E7E9;
+   font: normal 12px Arial, Helvetica, sans-serif;
+   line-height: 1.5em;
+}
+
+body.contentpane a{
+	text-decoration: underline;
+   color: #222;
+}
+
+body.contentpane span.icon{
+	float: right;
+}
+
+body.contentpane img {
+	border: none;
+	border: 0;
+}
+
+body.contentpane h1{
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #032158;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+body.contentpane h2, .contentheading, .componentheading{
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #032158;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+body.contentpane h3{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #032158;
+	margin: 0 0 8px 0;
+	text-transform: uppercase;
+}
+
+body.contentpane h4{
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #032158;
+	margin: 0 0 7px 0;
+	text-transform: uppercase;
+}
+
+body.contentpane h5{
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 100%;
+	color: #032158;
+	margin: 0 0 5px 0;
+	text-transform: uppercase;
+}
+
+body.contentpane p{
+	margin: 0 0 15px 0;
+}
+
+body.contentpane ul, ol{
+	margin: 15px 0 20px 0px;
+	list-style: none;
+}
+
+body.contentpane ul li{
+  background: transparent url(../images/blue/subarrow.png) left 6px no-repeat;
+  padding: 0 0 0 10px;
+}
+
+body.contentpane input {color: #444;background-color: #fff;margin: 0; padding: 2px;height: 1.5em; border-top: 1px solid #FAFAFA;border-right: 2px solid #C8C9CC;border-bottom: 2px solid #C8C9CC;border-left: 1px solid #FAFAFA;}
+
+body.contentpane .button{
+	background: url(../images/blue/buttonbg.png) bottom repeat-x;
+	height: 26px;
+	width: auto;
+	padding: 0 11px;
+	border-top: 0;
+	border-right: 1px solid #455076;
+	border-bottom: 0;
+	border-left: 1px solid #153267;
+	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+}

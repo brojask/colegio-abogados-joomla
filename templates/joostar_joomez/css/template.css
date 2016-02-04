@@ -1,0 +1,1075 @@
+/*--------------------------------------------------------------------------------
+# Main CSS JooStar Template 
+# Package JooStar Joomez Joomla! 2.5 Template
+# JooStar - August 2012 (Joomla! 2.5)
+# Version 1.0.0
+# Author   Joomez Joomla! Templates  http://www.joomez.com
+# Copyright (C) 2011-2012 www.Joomez.com All Rights Reserved.
+# Creative Commons 3.0 License.
+---------------------------------------------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+* {outline: 0px;}
+
+html, body { height: 100%; }
+
+body {
+ color: #222;
+ background-color: #E4E7E9;
+ padding: 0; margin: 0;
+ text-align: center;
+ font: normal 12px Arial, Helvetica, sans-serif;
+ line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, .contentheading, .componentheading, #topmenu ul.menu li.level1 a, .jcomments-links a, a.readmore, #gotop a, .button, .btn, div.pagination, div.search ol li a, div.weblinks ul li a, div.newsfeeds ul li a, div.sectionlist ul li a, #header_wrap, table.contenttoc tr th, div.pagenavcounter, #system-message, div.bannerheader, blockquote, div.search dl.search-results dt.result-title a { font-family: 'Droid Sans', arial, serif; }
+
+img {
+	border: none;
+	border: 0;
+}
+
+#top{
+	width: 970px;
+	/*height: 109px;*/
+	height: 140px;
+	text-align: left;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+img#logo{
+	/*width: 216px;
+	height: 52px;*/
+	width: 138px;
+	height: 138px;
+	margin: 12px 0 0 6px;
+	float: left;
+	display: inline;
+}
+
+h2#logo{
+	width: 216px;
+	height: 52px;
+	font-size: 40px;
+	float: left;
+	font-weight: normal;
+	margin: 26px 0 0 6px;
+}
+
+h2#logo a{
+   text-decoration: none;
+}
+
+h2#logo a:hover{
+   text-decoration: none;
+}
+
+h2#logo a span{
+	font-size: 11px;
+	float: right;
+	line-height: normal;
+}
+
+#top ul{
+	list-style: none;
+	margin: 28px 0 0 23px;
+	display: inline;
+	float: right;
+}
+
+#top li{
+	display: inline;
+	margin: 0 12px 0 0;
+}
+
+#top a{
+	text-decoration: none;
+	text-shadow: 0 1px 1px #fff;
+}
+
+#top form.searchtop{
+	float: right;
+}
+
+input#mod_search_searchword{
+   	width: 172px;
+	height: 27px;
+	display: inline;
+	float: left;
+	background: url(../images/top_search_bg.png) left top no-repeat;
+	border: 0;
+	padding: 0 11px;
+	color: #08265D;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+form.searchtop{
+	float: left;
+	margin: 28px 10px 0 0;
+	display: inline;
+	width: 223px;
+}
+
+.searchtop input.button{
+	width: 29px;
+	height: 27px;
+	display: inline-block;
+	float: right;
+	background: url(../images/search_bg.png) right top no-repeat;
+	border: 0;
+	cursor: pointer;
+	text-indent: -9999px;
+   	font-size: 0;
+  	line-height: 0;
+}
+
+#slider_wrap{
+	width: 100%;
+	/*height: 302px;*/
+	height: 341px;
+}
+#slider_wrap .panel .readon {
+	border-bottom: 0;
+	border-top: 0;
+}
+
+#header_wrap h1, #header_wrap h2, #header_wrap h3, #header_wrap h4{
+	font-weight: normal;
+	font-size: 30px;
+}
+
+#right form.searchtop, #left form.searchtop{
+	float: left;
+	margin: 10px 0 0 0;
+	display: inline;
+	width: 160px;
+}
+
+#right input#mod_search_searchword, #left input#mod_search_searchword{
+   width: 109px;
+	height: 27px;
+	display: inline;
+	float: left;
+	background: url(../images/search_bg.png) left top no-repeat;
+	border: 0;
+	padding: 0 11px;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+#topmenu{
+	width: 950px;
+	/*height: 36px;*/
+	height: 46px;
+   margin: 0 auto;
+}
+
+#header_wrap{
+	width: 100%;
+	/*height: 96px;*/
+	height: 40px;
+}
+
+#header{
+	width: 870px;
+	height: 64px;
+	margin: 0 auto;
+	padding: 38px 40px 0 40px;
+	display: inline-block;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+
+/*Top Modules 1 2 3*/
+
+#top_modules{
+	width: 950px;
+	height: auto;
+	margin: 0 auto;
+	font-size: 12px;
+}
+#top_modules h3.mod3header, #bottom h3.mod3header, #frontright h3, #frontrightfull h3, #right h3, #left h3, div.items-more h3, div.cat-children h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 0 12px 0;
+	padding: 0 0 0 15px;
+}
+#top_modules_wrap a.readmore, #bottom a.readmore, div.item p.readmore a, div.items-leading p.readmore a, div.item a.readmore-link, div.items-leading a.readmore-link{
+	line-height: 26px;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#top_modules_wrap a.readmore:hover, #bottom a.readmore:hover, div.item p.readmore a:hover, div.items-leading p.readmore a:hover, div.item a.readmore-link:hover, div.items-leading a.readmore-link:hover{
+	text-decoration: underline;
+}
+.blog-featured div.item p.readmore a {
+	float: left; clear: left;
+}
+
+#user1, #user2, #user3{
+	height: auto;
+	float: left;
+	display: inline;
+}
+
+#user1, #user2{
+   margin: 0 30px 0 0;
+}
+
+/*End Top Modules 1 2 3*/
+
+#container_wrap{
+	width: 100%;
+	height: auto;
+	background: transparent url(../images/topmodules_wrap_bg.png) bottom repeat-x;
+	text-align: left;
+}
+
+#breadcrumb{
+	width: 950px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 14px;
+	overflow: hidden;
+	clear: both;
+	text-align: left;
+	text-transform: uppercase;
+	color: #666;
+	font-weight: bold;
+	font-size: 11px;
+	text-shadow: 0 1px 1px #fff;
+}
+
+#breadcrumb a{
+	color: #666;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#breadcrumb a:hover{
+	text-decoration: underline;
+}
+
+#breadcrumb img{
+	margin: 0 3px;
+}
+
+#maincontent{
+	width: 950px;
+	height: auto;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+	overflow: hidden;
+	clear: both;
+	text-align: left;
+	/*text-shadow: 0 1px 1px #fff;*/
+}
+
+#contentheading {
+	text-shadow: 0 1px 1px #fff;
+}
+
+#gotop{
+	width: 950px;
+	height: 20px;
+	text-align: right;
+	overflow: hidden;
+	clear: both;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px 0 13px 0;
+}
+#gotop a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px 0 0;
+	display: inline;
+}
+
+/*Front Content*/
+
+#front{
+	width: 460px;
+	height: auto;
+	float: left;
+}
+#front.three{
+	width: 950px;
+}
+#front.two{
+	width: 702px;
+}
+
+#frontright{
+	width: 460px;
+	height: auto;
+	float: right;
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+	padding: 0 0 0 0;
+}
+#frontright.half{
+	width: 218px;
+}
+
+#frontrightl{
+	width: 218px;
+	height: auto;
+	float: left;
+}
+
+#frontrightr, #right{
+	width: 218px;
+	height: auto;
+	float: right;
+}
+
+#left{
+	width: 218px;
+	height: auto;
+	float: left;
+	margin-right: 25px
+}
+
+#frontrightfull{
+	width: 460px;
+	height: auto;
+	float: right;
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+	padding: 26px 0 0 0;
+}
+
+/*Subpages*/
+
+#contentl{
+	width: 676px;
+	height: auto;
+	float: left;
+}
+#contentl.full{
+	width: 950px;
+}
+#contentl.three{
+	width: 458px;
+}
+
+a, div.article a, div.item a{
+	text-decoration: underline;
+}
+
+a:hover, div.article a:hover, div.item a:hover{
+	color: #3B537C;
+}
+
+/*Bottom Modules 5 6 7*/
+
+#bottom{
+   width: 950px;
+	height: auto;
+	margin: 0 auto;
+	padding: 30px 0 15px 0;
+	overflow: hidden;
+	clear: both;
+	font-size: 12px;
+}
+
+#bottom a.readmore{
+	float: right;
+}
+
+#bottom p{
+	margin: 0 0 15px 0;
+}
+
+#user5, #user6, #user7{
+	width: 295px;
+	height: auto;
+	float: left;
+	display: inline;
+}
+
+#user5, #user6{
+   margin: 0 25px 0 0;
+}
+
+/*End Bottom Modules 5 6 7*/
+
+/*forms*/
+
+form.form-login{
+	margin: 5px 0 0 0;
+	float: left;
+	width: auto;
+}
+
+div.modulecontent{
+  overflow: hidden;
+	clear: both;
+}
+
+form#form-login fieldset{
+	border: 0;
+}
+
+form#form-login fieldset div.formlogin, div.user fieldset div {
+	margin: 0 0 12px 0;
+	overflow: hidden;
+}
+
+form#form-login fieldset div.formlogin2{
+	margin: 0 0 6px 0;
+	overflow: hidden;
+}
+
+form#form-login fieldset label{
+	float: left;
+}
+
+form#form-login fieldset div.formlogin label, div.user fieldset div label{
+	float: left;
+	margin: 3px 10px 0 0;
+}
+
+form#form-login #form-login-username input.inputbox,
+form#form-login #form-login-password input.inputbox{
+	background-color: #F5F4F4;
+	height: 25px;
+	width: 135px;
+	padding: 0 0 0 25px;
+	border-top: 0;
+	border-right: 1px solid #BCBBBF;
+	border-bottom: 1px solid #BCBBBF;
+	border-left: 1px solid #FAFAFA;
+	float: right;
+	font-size: 12px;
+}
+
+#left form#form-login #form-login-username input.inputbox,
+#left form#form-login #form-login-password input.inputbox,
+#right form#form-login #form-login-username input.inputbox,
+#right form#form-login #form-login-password input.inputbox{
+	width: 115px;
+}
+
+input#modlgn_username{
+	background: #F5F4F4 url(../images/login-ico.png) left center no-repeat;
+}
+
+input#modlgn_passwd{
+	background: #F5F4F4 url(../images/pwd-ico.png) left center no-repeat;
+}
+
+form.#form-login input#modlgn_remember {
+	margin: 0 0 0 15px;
+}
+
+form#form-login .button{
+	margin: 6px 0 0 74px;
+	float: left;
+	clear: both
+}
+
+form#form-login ul li {
+	font-size: 10px;
+	text-transform: uppercase;
+	line-height: normal;
+	margin: 0 0 3px 0;
+}
+
+form#form-login ul {
+	margin: 5px 0 3px 0;
+	list-style: none
+}
+
+div.modulecontent form#form-login{
+	margin: 0 0 5px 0;
+}
+form#form-login ul li a {
+	text-decoration: none;
+	padding: 0 0 0 13px;
+}
+
+div.modulecontent form.form-login input.inputbox{
+	float: left;
+}
+
+div.modulecontent form.form-login fieldset div.formlogin label{
+	float: left;
+	margin: 0 0 3px 0;
+	width: 100%;
+}
+
+div.modulecontent form.form-login .button{
+	margin: 0;
+}
+
+/*end forms*/
+
+#footer{
+   width: 950px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 0 19px 0;
+	overflow: hidden;
+	clear: both;
+	font-size: 10px;
+	line-height: normal;
+	color: #888;
+	text-transform: uppercase;
+}
+
+#footer ul.menu{
+	list-style: none;
+	margin: 0 0 10px 0;
+	width: 560px;
+	float: left;
+}
+
+#footer ul.menu li.first{
+	padding: 0 3px 0 0;
+}
+
+#footer a {
+color: #888;
+text-decoration: none;
+}
+
+#footer a:hover, #footer ul.menu li a:hover {
+text-decoration: underline;
+}
+
+p#copyright{
+	float: left;
+	width: 560px;
+	height: auto;
+}
+
+div#footeright{
+	float: right;
+	width: 320px;
+	height: auto;
+}
+
+/*Social icons module*/
+
+h3.socialhead{
+	float: left;
+	width: 100px;
+	font-size: 14px;
+	padding: 6px 0 0 0;
+}
+
+div.socialicons{
+	margin: 0 0 0 80px;
+}
+
+div.socialicons ul{
+	list-style: none;
+}
+
+div.socialicons ul li{
+	display: inline;
+	margin: 0 10px 0 0;
+	float: left;
+}
+
+/*Modules*/
+
+.moduletable, .moduletable_menu{
+	margin: 0 0 31px 0;
+	overflow: hidden;
+}
+
+#frontrightfull .moduletable{
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+
+.modulecontent ul.menu, ul.mostread, ul.latestnews, ul.sections, #top_modules .moduletable ul, #bottom .moduletable ul, .modulecontent ul#mainlevel{
+	list-style: none;
+}
+
+.modulecontent ul.menu li, #top_modules .moduletable ul li, #bottom .moduletable ul li, ul.latestnews li, ul.mostread li, ul.sections li, .modulecontent ul#mainlevel li{
+	background: transparent url(../images/rightmenuhr.png) bottom repeat-x;
+	padding: 0 0 1px 0;
+}
+
+.modulecontent ul.menu li ul li, .modulecontent ul#mainlevel li ul li{
+	background: none;
+	padding: 0 0 1px 0;
+}
+
+.modulecontent ul.menu li.last{
+	background: none;
+}
+
+.modulecontent ul.menu li.last a{
+	border-bottom: none;
+}
+
+ul.pagination li a{
+	text-decoration: none;
+}
+
+h2.title a, div.blog h2.title a, h2.title a:hover, div.article h2.title a:hover{
+	text-decoration: none;
+}
+
+ul.pagination li a:hover, #gotop a:hover{
+	text-decoration: underline;
+}
+
+/*Xmap blue Style*/
+
+.xmap .contentpaneopen{
+	padding: 20px;
+}
+
+.xmap .contentpaneopen ul{
+	list-style: none !important;
+}
+
+.xmap a{
+	text-decoration: none;
+}
+
+
+ul.level_1 li, ul.level_2 li, ul.level_3 li, ul.level_4 li{
+	padding: 1px 0 1px 10px !important;
+}
+
+.modulecontent ul.menu li a, #top_modules .moduletable ul li a, #bottom .moduletable ul li a, ul.latestnews li a, ul.mostread li a, ul.sections li a, .modulecontent ul#mainlevel li a, ul.jcomments-latest-commented li a, ul.jcomments-most-commented li a{
+	text-decoration: none;
+	padding: 4px 0 5px 24px;
+	display: block;
+}
+
+div.items-more ol li a{
+	padding: 0 0 0 24px;
+}
+
+div.cat-children ul li a{
+	text-decoration: none;
+	padding: 4px 0 5px 20px;
+	display: inline-block;
+}
+
+div.cat-children dl, div.cat-children dt, div.cat-children dd{
+	display: inline;
+	font-size: 11px;
+}
+
+div.cat-children dl{
+	margin: 0 0 0 5px;
+}
+
+.modulecontent ul.menu li ul{
+	list-style: none;
+	margin: 0 0 0 25px;
+}
+
+div.cat-children div.category-desc{
+	margin: 0; padding: 0; background: none;
+}
+
+
+.modulecontent ul.menu li#current.level1, .modulecontent ul.menu li.level1.parent.active{
+	padding: 0 0 1px 0;
+}
+
+.modulecontent ul.menu li#current.parent.active a, .modulecontent ul.menu li.parent.active a, .modulecontent ul.menu li#current.active a, .modulecontent ul.menu li.level1.parent.active ul li#current.last.level2.parent.active,
+ul.menu li.level1.parent.active ul li.level2.parent.active{
+	border-bottom: 0;
+}
+
+.modulecontent ul.menu li#current.level1 ul li a, .modulecontent ul.menu li.level1 ul li.level2 a,
+.modulecontent ul.menu li.level1.parent.active ul li a{
+	padding: 1px 0 1px 10px;
+}
+
+.modulecontent ul.menu li#current.level1 ul li a:hover, 
+.modulecontent ul.menu li#current.level2.parent.active a:hover, 
+.modulecontent ul.menu li#current.level1.parent.active ul li.level2 a:hover,
+.modulecontent ul.menu li.level1.parent.active ul li.level2 a:hover, 
+.modulecontent ul.menu li.level1.parent.active ul li#current.level2.active a,
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active a, 
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active a:hover, 
+.modulecontent ul.menu li.level1.parent.active ul li#current.level2.parent.active ul li.level3 a:hover,
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active ul li#current.level3 a:hover, 
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active ul li#current.level3.active a,
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active ul li.level3 a:hover,
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active ul li#current.level3.parent.active ul li.level4 a:hover,
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active ul li.level3.parent.active a,
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active ul li.level3.parent.active ul li.level4 a:hover,
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active ul li.level3.parent.active ul li#current.level4.active a{
+   text-decoration: underline;
+}
+
+.modulecontent ul.menu li#current.level1.parent.active a, 
+.modulecontent ul.menu li.level1.parent.active ul li#current.level2.parent.active ul li.level3 a,
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active ul li.level3 a,
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active ul li#current.level3.parent.active ul li.level4 a,
+.modulecontent ul.menu li.level1.parent.active ul li.level2.parent.active ul li.level3.parent.active ul li.level4 a{
+	text-decoration: none;
+}
+
+.modulecontent ul.menu li.level1.parent.active ul li#current.level2.parent.active{
+	background: none;
+}
+
+.modulecontent ul.menu li.level1.active{
+	font-weight: bold;
+}
+
+.modulecontent ul.menu li.level1 ul li.level2, .modulecontent ul.menu li.level1 ul li.level2 ul li.level3{
+	font-weight: normal;
+}
+
+/*Right Menu always show sub-menu Items*/
+
+.modulecontent ul.menu li.level1.parent ul{
+	background: none;
+}
+
+.modulecontent ul.menu li.level1.parent ul li a{
+	padding: 1px 0 1px 10px;
+}
+
+.modulecontent ul.menu li.level1.parent ul li a:hover{
+	text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h6, .contentheading, .componentheading, div.bannerheader {
+	line-height: 100%;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h1.pagetitle-featured{
+	margin-bottom: 30px;
+}
+
+h1.title, .contentheading, .componentheading, .xmap h1{
+   margin: 0 0 25px 0;
+}
+h1.title {
+	line-height: 140%;
+}
+
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a, .contentheading a, .componentheading a {
+	line-height: 100%;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover, .contentheading a:hover, .componentheading a:hover, 
+form#form-login ul li a:hover, #top a:hover, #top_modules_wrap a.readmore:hover, #bottom a.readmore:hover,div.item a.readmore-link:hover,div.item a.comments-link:hover, .xmap a:hover{
+	text-decoration: underline;
+}
+
+div.weblinks ul li a, div.newsfeeds ul li a, div.sectionlist ul li a{
+	font-size: 18px;
+	text-decoration: none;
+}
+a.category, th a, td a{
+	text-decoration: none;
+}
+
+div.search ol li a{
+	font-size: 18px;
+	text-decoration: none;
+	margin: 0 0 5px 0;
+}
+
+.button, table.adminform button, div.weblinks button, button.validate, button{
+	height: 28px;
+	width: auto;
+	padding: 0 11px 2px 11px;
+	border-top: 0;
+	border-bottom: 0;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+/*Pagebreak*/
+
+div.article table.contenttoc{
+	width: 150px;
+	height: auto;
+	float: right;
+	margin: 0 0 15px 20px;
+	padding: 10px;
+}
+
+div.article table.contenttoc tr th{
+	text-transform: uppercase;
+	font-weight: normal;
+	padding: 0 0 5px 0;
+	background-image: none;
+}
+
+div.article table.contenttoc tr td{
+	padding: 2px 0;
+	background-image: none;
+}
+
+div.article table.contenttoc tr td a.toclink{
+  padding: 0 0 0 10px;
+  text-decoration: none;
+  display: block;
+}
+
+div.article table.contenttoc tr td a.toclink:hover{
+  text-decoration: underline;
+}
+
+div.article table.contenttoc tr td a.toclink.active{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+div.pagenavcounter{
+	margin: 0 0 20px 0;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+/*Article lists*/
+
+div#articlecontent ul, div.blogintrotext ul, div.category-desc ul {
+    list-style: none outside none;
+    margin: 15px 0 20px 15px;
+    overflow: hidden;
+}
+div#articlecontent ul li, div.blogintrotext ul li, div.category-desc ul li{
+  padding: 0 0 0 10px;
+}
+
+#top_modules_wrap{
+	width: 100%;
+	height: auto;
+	padding: 40px 0 15px 0;
+	text-align: left;
+	overflow: hidden;
+	clear: both;
+}
+
+#bottom_wrap{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	text-align: left;
+}
+
+#footer_wrap{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	text-align: left;
+}
+
+table.polltable{
+	padding: 20px;
+	margin: 0 0 20px 0;
+	width: 100%;
+}
+
+div.modulecontent form.poll{
+	padding: 10px;
+	margin: 5px 0 0 0;
+}
+
+#footer ul.menu li{
+	 display: inline;
+	 padding: 0 3px;
+}
+
+#footer ul.menu li a{
+	text-decoration: none;
+}
+
+ul.jclist li a.jcl_objtitle, ul.jclist li a.jcl_readmore{
+	text-decoration: none;
+	padding: 5px 0 5px 24px;
+	display: block;
+	font-size: 12px;
+}
+
+ul.jclist li a.jcl_comment, #top_modules .moduletable ul.jclist li a.jcl_comment, #bottom .moduletable ul.jclist li a.jcl_comment{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+ul.jclist li a.jcl_comment:hover, #top_modules .moduletable ul.jclist li a.jcl_comment:hover, #bottom .moduletable ul.jclist li a.jcl_comment:hover{
+	text-decoration: underline;
+}
+
+div.weblinks ul, div.newsfeeds ul, div.sectionlist ul, div.contact{
+	padding: 20px;
+	margin: 0 0 20px 0;
+	list-style: none;
+}
+
+table{
+	padding: 20px 0;
+	margin: 0 0 20px 0;
+}
+
+form#searchForm, form#adminForm, form.user, form#sendart, div#archive, form.form-validate, div.login form{
+	padding: 20px;
+	margin: 0 0 20px 0;
+}
+
+legend {background-color: inherit;text-align: left;padding: 0 0 19px 0; font-size: 16px; text-transform: uppercase;}
+
+/*Forms*/
+
+input.inputbox, textarea, div.filter input, input.wlinks, input.required, div.login-fields input, div.com-user input {margin: 0; padding: 2px;height: 1.7em;}
+select {margin: 0; padding: 2px; cursor: pointer;}
+
+/*Joomla System message*/
+
+/* System Messages */
+#system-message    { margin-bottom: 5x; padding: 0; font-size: 18px; font-weight: normal;}
+#system-message dt { }
+#system-message dd { margin: 0; text-indent: 35px; text-transform: uppercase }
+#system-message dd ul{ margin-bottom: 6px; list-style: none; padding: 20px 20px 20px 18px; }
+
+/* System Standard Messages */
+#system-message dt.message { display: none; }
+#system-message dd.message { 
+	padding: 0;
+	margin: 0;
+	margin-bottom: 15px;
+	padding-bottom: -15px;
+	padding-bottom: 5px;  
+	}
+	
+/* System Error Messages */
+#system-message dt.error { display: none; }
+#system-message dd.error ul {margin-bottom: 6px; list-style: none; padding: 20px 20px 20px 18px; }
+#system-message dd.error { 
+	padding: 0;
+	margin: 0;
+	margin-bottom: 15px;
+	padding-bottom: -15px;
+	padding-bottom: 5px;
+	}
+
+/* System Notice Messages */
+#system-message dt.notice { display: none; }
+#system-message dd.notice ul {margin-bottom: 6px; list-style: none; padding: 20px 20px 20px 18px; }
+#system-message dd.notice { 
+	padding: 0;
+	margin: 0;
+	margin-bottom: 15px;
+	padding-bottom: -15px;
+	padding-bottom: 5px;  
+	}
+	
+/*JComments*/
+
+.jcomments-links{
+	text-align: right;
+	text-transform: uppercase;
+}	
+
+ul.jcomments-latest li{
+	background: transparent url(../images/top_wrap_bg.png) bottom repeat-x;
+	padding: 0 0 9px 0;
+	margin: 0 0 9px 0;
+	font-size: 11px;
+	line-height: 1.4em;
+}
+
+/*mod_stat*/
+
+dt.jinline{
+  font-weight: bold;
+  margin: 0 4px 0 0;
+}
+
+dd.jinline, dt.jinline{
+	display: inline;
+}
+
+/*PageBreak*/
+
+div#articlecontent div.pagination ul li{
+	background: none;
+}
+
+div#articlecontent div.pagination ul li a{
+   text-decoration: none;
+}
+
+div#articlecontent div.pagination ul li a:hover{
+   text-decoration: underline;
+}
+
+div#articlecontent div#article-index ul{
+   margin: 15px 0 0 0;
+}
+
+div#articlecontent div.pagenavcounter{
+   font-size: 14px;
+}
+
+div#article-index{
+	float: right;
+	padding: 26px;
+	width: 182px;
+	margin: 0 0 30px 30px;
+}
+
+div.article div#article-index h3{
+	margin: 0;
+}
+
+div.article div#article-index ul li a{
+   text-decoration: none;
+}
+
+div#article-index ul li a.toclink.active{
+	font-weight: bold;
+}
+
+/* Pagenav*/
+
+ul.pagenav {margin: 15px 0 0 0 !important;}
+ul.pagenav li {display: inline; background: none !important; padding: 0 !important;}
+ul.pagenav li.pagenav-next {float: right;}
+ul.pagenav li a {text-decoration: none;}
+ul.pagenav li a:hover {text-decoration: underline;}
+
+.moduletablecalendario table{
+	margin: 0px !important;
+	padding: 0px !important;
+	background-color: #fff;
+}
+.mod_events_latest_table {
+	padding: 0;
+}
+.ev_navigation {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+#jevents_body table{
+	margin: 0px !important;
+	padding: 0px !important;
+	background-color: #E4E8E8;
+}

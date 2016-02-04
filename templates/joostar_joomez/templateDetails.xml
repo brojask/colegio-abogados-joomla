@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.7//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.7/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>JooStar_Joomez</name>
+    <version>1.0.0</version>
+	<creationDate>August 2012</creationDate>
+	<author>Joomez.com</author>
+	<authorEmail>contact@joomez.com</authorEmail>
+	<authorUrl>http://www.joomez.com</authorUrl>
+	<copyright></copyright>
+  <license>Creative Commons 3.0 License</license>
+  <description>
+    <![CDATA[
+	
+<h1> Welcome JooStar - the new august 2012 Joomla! 2.5 template from Joomez.com.<br /> It is FREE template on Creative Commons 3.0 License.</h1>
+<p>Welcome Joomez latest template: JooStar! it's professional light  design, flexible layout and large presentation area put your products  and content right into perspective. This is template which you can  build fast and easily for your site from personal portfolio, blog, or  any kind of business website. The elegant menu bar looks great  combination with a wide screen background image in the header.</p>
+<h2>Features</h2>
+<ul>
+  <li>Joomla! 2.5.x compatible</li>
+  <li>Built on our very own Joomez Framework</li>
+  <li>Width: 980px</li>
+  <li>Available sources: layered PSD file included, template installation package</li>
+  <li>Full Joomla! instalation package with sample content and 3rd party  extensions (JComments, JCE - Joomla Content Editor and Xmap - site map  generator)&nbsp;</li>
+  <li>CSS Superfish multi level dropdown menu</li>
+  <li>Tableless design and 100% CSS based</li>
+  <li>Lightweight and fast-loading</li>
+  <li>4 color styles: dark blue (default), green, orange and violet</li>
+  <li>6 layout options: 1,2 or 3 columns on the frontpage  (component+left+right or component+right), 3 columns  (left+component+right), 2 columns (component+right or left+component) 1  column (component)</li>
+  <li>W3C XHTML 1.0 Transitional</li>
+  <li>W3C CSS Validates</li>
+  <li>Fully compatible IE7+, Firefox 2+, Firefox 3, Flock 0.7+, Netscape, Safari, Opera 9.5, Chrome</li>
+  <li>Automatic Slideshow on frontpage with template parameters (No plugin/module/component needed)</li>
+  <li>Many settings for the template</li>
+  <li>Choose between logo or site name</li>
+  <li>15 Google Fonts support</li>
+  <li>404 error page with countdown redirect to homepage</li>
+  <li>Offline message page</li>
+  <li>Optimized for Search Engines which helps in SEO</li>
+  <li>High-quality, SEO optimized XHTML/CSS code</li>
+  <li>SEF Optimised Layout</li>
+  <li>Scroll to top button</li>
+  <li>&amp; many more</li>
+</ul>
+<h2>3RD PARTY EXTENSIONS</h2>
+<ul>
+  <li>Support for JComments</li>
+  <li>Support for WYSIWYG editor (TinyMCE, JCE - Joomla Content Editor)</li>
+  <li>Support for Sitemap - Xmap component</li>
+</ul>
+<h2>OUR EXTRA STUFF</h2>
+<ul>
+  <li>Social Media Icons Module</li>
+</li>
+</ul>
+<h2>Customizing JooStar Joomez Template</h2>
+<h2>How to change Top logo</h2>
+<p>The logo JooStar Template is default sample image logo and you are free to replace with your own. The logo image file is called <strong>logo.png</strong> and located in <strong>folder joomla_root_folder/templates/joostar_joomez/images/color/logo.png</strong>. There are 3 stages involved in changing the default logo to your own:<br /><br /><strong>Step 1:</strong> Prepare your own logo image file<br /><br />First, you need to prepare your own logo image file in some graphic editor like Adobe Photoshop or Fireworks. We recommend you to save your logo in format PNG.<br /><br /><strong>Step 2:</strong> Upload logo image file to your server - folder: joomla_root_folder/templates/joostar_joomez/images/color/<br /><br />If you uploaded your logo to template’s images folder overwriting the original file.<br /><br /><strong>Step 3:</strong> Setup template parameter to use new logo<br /><br />You can also use the parameter for a text logo<br /><br />1. Go to template manager by menu Extensions -&gt; Template Manager.<br />2. Click on template name JooStar Joomla Joomez Template.<br />3. Here in the Template Edit page you will see the list of template parameters in section Parameters. You need to configure following parameters:<br /><br />HEADER LOGO<br />Type - select type of logo: Image or Text (default is image).<br />If you have chosen Type: Text, need in the fields below enter the name of your site.<br />Click button Save.</p>
+<h2>Configuration Main Superfish Menu</h2>
+<p>The main drop-down menu is adaptation of popular Superfish menu to Joomla! CMS. By just combination XHTML and CSS it allows you to have clean accessible XHTML code structure and simple yet effective drop-down menu effect. Please make following steps:<br /><br />1. In module manager click on the menu module you want to use as main menu module. By default, Joomla! 2.5 comes with various menu modules and there is Main Menu module among them. That might be the perfect choice.<br />2. In module’s configuration page setup following parameters:</p>
+<p><strong>Details</strong></p>
+<p>Title: Main Menu (or any other you like)<br />Show title: No<br />Enabled: Yes<br />Position: position-1<br />Menu Assignment: On all pages</p>
+<p><strong>Basic Options</strong></p>
+<p>Select Menu: mainmenu (you might want to use another menu source here)<br />Start Level: 1<br />End Level: All<br />Show sub-menu Items: Yes</p>
+<p>Drop-down horizontal menus and unlimited sub-menus can be defined.</p>
+<h2>JooStar Template Color Styles</h2>
+<p>4 color styles (dark blue, green, orange and violet)</p>
+<h2>15 custom Google Fonts</h2>
+<p>Choose between 15 custom headings fonts. Pick your favorite Google Font Faces.</p><br />
+<br />
+
+	<h3>License</h3>
+    
+      <p>This Joomla! 2.5 template is comprised of two parts:</p>
+<p>1) The PHP code is licensed under the GPL license as is Joomla! itself. You will find a copy of the license text in the same directory as this text file. Or you can read it here:<br>
+  <a href="http://opensourcematters.org/index.php?option=com_content&view=article&id=55">http://opensourcematters.org/index.php?option=com_content&amp;view=article&amp;id=55</a></p>
+      <p>2) All other parts of the theme including, but not limited to the CSS code, Joomez PHP code, images, and design are Creative Commons 3.0 License.</p>
+      <p>Contact us <a href="mailto:contact@joomez.com">contact@joomez.com</a> | <a href="http://www.joomez.com">www.joomez.com</a>
+	  <br />
+	  <br />
+      <a href="http://www.joomez.com"><img src="../templates/joostar_joomez/images/joomez.png" /></a></p>
+	  
+	  ]]>
+  
+  </description>
+  	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>joomez_head.php</filename>
+		<filename>joomez_tools.php</filename>
+		<filename>joomez_vars.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>offline.php</filename>
+		<filename>params.ini</filename>
+		<filename>license.txt</filename>
+	</files>
+	<positions>
+		<position>hornav</position>
+		<position>breadcrumbs</position>
+		<position>banner</position>
+		<position>left</position>
+		<position>right</position>
+		<position>frontrightfull</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>footer</position>
+		<position>syndicate</position>
+		<position>slider</position>
+		<position>debug</position>
+		<position>footeright</position>
+		<position>footermenu</position>
+		<position>position-1</position>
+	</positions>
+	
+	<config>
+	<fields name="params">
+		<fieldset name="basic">
+		
+		<field type="spacer" default="HEADER LOGO" />
+		<field name="LogoType" type="list" default="image" label="Type" description="Image or text">
+			<option value="image">image</option>
+			<option value="text">text</option>
+		</field>
+		<field name="logoText1" type="text" default="" size="50" label="Logo text first" description="text" />
+		<field name="logoText2" type="text" default="" size="50" label="Logo text second" description="text" />
+		
+		<field type="spacer" default="TEMPLATE COLOUR" />		
+		<field name="color" type="list" default="blue" label="Select a CSS color style" description="">
+  			<option value="blue">blue</option>
+  			<option value="orange">orange</option>
+			<option value="green">green</option>
+			<option value="violet">violet</option>
+		</field>
+		<field type="spacer" default="HEADER TEXT" />	
+		<field name="header" type="list" default="" label="Select type of header" description="">
+			<option value="menu">text from first menu position</option>
+  			<option value="module">module</option>
+		</field>
+		<field type="spacer" default="FRONTPAGE SLIDE" />	
+		<field name="limit" type="text" default="3" label="Slide Amount" description="" />
+		<field name="word_limit" type="text" default="80" label="Word limit" description="" />
+		<field name="category" type="category" extension="com_content" label="Slide Cateogry" description="" />
+		<field name="height" type="text" default="" label="Image height" description="" />
+		<field name="readmore" type="list" default="true" label="Read more show" description="">
+  			<option value="true">on</option>
+			<option value="false">off</option>
+		</field>
+		<field name="autoslide" type="list" default="true" label="Auto slide show" description="">
+  			<option value="true">on</option>
+			<option value="false">off</option>
+		</field>
+		<field name="speed" type="text" default="4000" label="Speed" description="" />
+		<field type="spacer" default="TEMPLATE FONT" />	
+		<field name="font" type="list" default="" label="Select a Google Font" description="">
+  			<option value="">none</option>
+  			<option value="Anton">Anton</option>
+			<option value="Droid+Sans">Droid+Sans</option>
+			<option value="PT+Sans">PT+Sans</option>
+			<option value="Cuprum">Cuprum</option>
+			<option value="PT+Serif">PT+Serif</option>
+			<option value="Lato">Lato</option>
+			<option value="Kreon">Kreon</option>
+			<option value="Buda">Buda</option>
+			<option value="Cabin">Cabin</option>
+			<option value="Arvo">Arvo</option>
+			<option value="Cousine">Cousine</option>
+			<option value="Arimo">Arimo</option>
+			<option value="Ubuntu">Ubuntu</option>
+			<option value="Indie+Flower">Indie+Flower</option>
+			<option value="Architects+Daughter">Architects+Daughter</option>
+		</field>
+		
+		</fieldset>
+	</fields>
+	</config>
+	
+</extension>

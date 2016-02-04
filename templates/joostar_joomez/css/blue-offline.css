@@ -1,0 +1,223 @@
+/*--------------------------------------------------------------------------------
+# Offline page
+# Package JooStar Joomez Joomla! 2.5 Template
+# Theme color Blue
+# JooStar - August 2012 (Joomla! 2.5)
+# Version 1.0.0
+# Author   Joomez Joomla! Templates  http://www.joomez.com
+# Copyright (C) 2011-2012 www.Joomez.com All Rights Reserved.
+# Creative Commons 3.0 License.
+---------------------------------------------------------------------------------*/
+
+/*Theme Blue Start*/
+
+body {
+ color: #DFDFDF;
+ background-color: #E4E7E9;
+ padding: 0; margin: 0;
+ text-align: center;
+ font: normal 12px Arial, Helvetica, sans-serif;
+ line-height: 1.5em;
+}
+
+#logo{
+	margin: 60px 0 20px 0;
+}
+
+h2#logo{
+	width: 216px;
+	height: 52px;
+	font-size: 40px;
+	font-weight: normal;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+h2#logo a{
+   text-decoration: none;
+	color: #032158;
+}
+
+h2#logo a:hover{
+   text-decoration: none;
+}
+
+h2#logo a span{
+	font-size: 11px;
+	float: right;
+	line-height: normal;
+}
+
+#box_wrapper{
+	width: 100%;
+	height: 302px;
+   background: #1C3A71 url(../images/blue/slider_wrap_bg.jpg) top center no-repeat;
+}
+
+#box {
+width:800px;
+margin:10px auto;
+padding: 16px;
+}
+
+#box div>h1 { 
+	line-height: 100%;
+	font-size: 24px;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 0 5px 0;
+	padding: 6px 0 12px 0;
+}
+
+#box>div>p br {
+display: none;
+}
+
+.outline {
+margin-top: 4px;
+}
+
+fieldset {
+border: 1px solid #000F46;
+padding:25px 13px 0 13px;
+margin:0 auto;
+margin-top: 20px;
+width: 442px;
+}
+
+p.username, p.password, p.remember { 
+overflow: hidden;
+}
+
+p.username input, p.password input { 
+border-color: #ef2b1e; 
+width: 156px; 
+}
+
+p.remember, #form-login ul { 
+clear: both; 
+}
+
+p.remember{
+	width: 160px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+p.username input, p.password input{
+	background-color: #F5F4F4;
+	height: 25px;
+	width: 197px;
+	padding: 0 0 0 25px;
+	border-top: 0;
+	border-right: 1px solid #BCBBBF;
+	border-bottom: 1px solid #BCBBBF;
+	border-left: 1px solid #FAFAFA;
+	font-size: 14px;
+	color: #032158;
+}
+
+p.username input{
+	background: #F5F4F4 url(../images/login-ico.png) left center no-repeat;
+	margin: 0 0 0 8px;
+}
+
+p.password input{
+	background: #F5F4F4 url(../images/pwd-ico.png) left center no-repeat;
+	margin: 0 0 0 10px;
+}
+
+div.buttons { 
+margin: 10px 0 20px; 
+cursor: pointer;
+width: 155px;
+margin: 0 auto;
+text-align: left;
+}
+
+input[type=submit] {
+margin:10px auto;
+display:block;
+background:#01144b;
+color: #DFDFDF;
+border: 1px solid #153368;
+text-transform:uppercase;
+font-weight: normal;
+height: auto;
+line-height:26px;
+padding: 2px 10px;
+font-size:14px;
+cursor: pointer;
+float: left;
+}
+
+input.button:hover{
+	background:#021c68;
+	color: #fff;
+   border: 1px solid #193d7d;
+}
+	
+/* System Messages */
+#system-message    { margin-bottom: 5x; padding: 0; font-size: 18px; font-weight: normal;}
+#system-message dt { }
+#system-message dd { margin: 0; text-align: center;}
+#system-message dd ul{background-color: #fff;  color: #376099; margin-bottom: 6px; list-style: none; padding: 20px 20px 20px 18px; border-right: 1px solid #BFBEC2; border-left: 1px solid #ecebed; border-top: 1px solid #ecebed; }
+
+/* System Standard Messages */
+#system-message dt.message { display: none; }
+#system-message dd.message { 
+	padding: 0;
+	margin: 0;
+	margin-bottom: 15px;
+	padding-bottom: -15px;
+	padding-bottom: 5px;
+	background: transparent url(../images/system/message-arrow.png) bottom left no-repeat; 
+	width: 800px; 
+	}
+
+	
+/* System Error Messages */
+#system-message dt.error { display: none; }
+#system-message dd.error ul {background-color: #fff;  color: #C90607; margin-bottom: 6px; list-style: none; padding: 20px 20px 20px 18px; border-right: 1px solid #BFBEC2; border-left: 1px solid #ecebed; border-top: 1px solid #ecebed; }
+#system-message dd.error { 
+	padding: 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding-bottom: -15px;
+	padding-bottom: 5px;
+	background: transparent url(../images/system/message-arrow.png) bottom left no-repeat; 
+	width: 800px; 
+	font-size: 20px;
+	}
+
+
+/* System Notice Messages */
+#system-message dt.notice { display: none; }
+#system-message dd.notice ul {background-color: #fff;  color: #5D5D5D; margin-bottom: 6px; list-style: none; padding: 20px 20px 20px 18px; border-right: 1px solid #BFBEC2; border-left: 1px solid #ecebed; border-top: 1px solid #ecebed; }
+#system-message dd.notice { 
+	padding: 0;
+	margin: 0;
+	margin-bottom: 15px;
+	padding-bottom: -15px;
+	padding-bottom: 5px;
+	background: transparent url(../images/system/message-arrow.png) bottom left no-repeat; 
+	width: 800px; 
+	}
+	
+/*Message icons*/
+
+#system-message dd.message ul li{
+	background: transparent url(../images/system/message-ico.gif) left top no-repeat;  
+	line-height: 22px;
+}
+
+#system-message dd.error ul li{
+	background: transparent url(../images/system/warning-ico.gif) left top no-repeat;  
+	line-height: 22px;
+}
+
+#system-message dd.notice ul li{
+	background: transparent url(../images/system/alert-ico.gif) left top no-repeat;  
+	line-height: 22px;
+}
